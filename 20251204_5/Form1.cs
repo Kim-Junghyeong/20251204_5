@@ -7,8 +7,8 @@ namespace _20251204_5
         {
             InitializeComponent();
             // 배열 생성
-            int[] arr = new int[5];
-            int[] arr2;
+            int[] arr = new int[5]; // 초기화 되어 있음(ref)
+            int[] arr2;             // 초기화 필요 없음(out)
             // ref 배열 채우기
             FillArray(ref arr);
             // 배열 출력
